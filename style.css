@@ -1,0 +1,17 @@
+body{
+    padding:0;
+    margin:0;
+    height:100vh;
+    background-color: black;
+}
+.switch-container{
+    width:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.switch-cover{
+    background-color: grey;
+    height: 140px;
+    width:200px;
+}
