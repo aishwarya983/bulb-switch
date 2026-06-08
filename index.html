@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulb Switch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scene" id="scene">
+    <div class="glow-wrap">
+      <div class="wire"></div>
+      <div class="wire-connection"></div>
+      <div class="socket-top"></div>
+      <div class="socket-back"></div>
+      <div class="top-bulb">
+        <div class="filament">
+          <svg viewBox="0 0 24 18" fill="none">
+            <polyline class="filament-line" points="2,16 6,4 12,12 18,4 22,16"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+      <div class="bottom-bulb"></div>
+    </div>
+    <div class="switch-container">
+      <div class="switch-cover">
+        <div class="screw"></div>
+        <button class="switch-btn" id="switchBtn"></button>
+        <div class="screw"></div>
+      </div>
+      <div class="label" id="statusLabel">OFF</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
