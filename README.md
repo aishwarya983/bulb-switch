@@ -37,5 +37,5 @@ bulb-switch/
 
 ## 🌐 Live Demo
 
-👉 **Live Demo:** https://your-live-demo-link.com
+👉 **Live Demo: https://aishwarya983.github.io/bulb-switch/
 
